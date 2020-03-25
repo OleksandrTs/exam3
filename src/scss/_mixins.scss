@@ -1,0 +1,8 @@
+@mixin font($fz, $c, $fw: inherit, $ff: inherit, $lh: inherit, $fs: inherit) {
+    font-size: $fz;
+    color: $c;
+    font-weight: $fw;
+    font-family: $ff;
+    line-height: $lh;
+    font-style: $fs;
+}
